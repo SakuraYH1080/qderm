@@ -1,0 +1,15 @@
+{
+  "cursor": "cD0yMDE1LTA2LTI2KzE0JTNBMzclM0E1OC45MzEwMDAlMkIwMCUzQTAw",
+  "stats": {
+    "pages": 108,
+    "records_seen": 10800
+  },
+  "stop_reason": "quota",
+  "quota": 400,
+  "counts": {
+    "0": 400,
+    "1": 400
+  },
+  "groups": 789,
+  "near_duplicate_pairs": 12
+}

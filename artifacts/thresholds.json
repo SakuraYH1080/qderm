@@ -1,0 +1,50 @@
+{
+  "classification": {
+    "threshold": 0.48548548554759846,
+    "selection": "Maximum val specificity subject to sensitivity >= 0.75",
+    "val_sensitivity": 0.75,
+    "val_specificity": 0.7875
+  },
+  "quality_gate": {
+    "selection": "Train originals: per-metric 1st/99th percentiles around median; val chooses one interval scale maximizing pooled level-2 rejection subject to original coverage >= 0.90. Ties favor original coverage then wider intervals.",
+    "candidate_scale_min": 0.5,
+    "candidate_scale_max": 3.0,
+    "candidate_scale_step": 0.025,
+    "selected_scale": 1.0,
+    "metrics": {
+      "blur_lapvar": {
+        "lower": 10.383627743625993,
+        "upper": 946.446105276608
+      },
+      "exposure_mean": {
+        "lower": 100.24833872107303,
+        "upper": 219.4457180277506
+      },
+      "exposure_clip_hi_ratio": {
+        "lower": 0.0,
+        "upper": 0.11404179890950453
+      },
+      "exposure_clip_lo_ratio": {
+        "lower": 0.0,
+        "upper": 0.23980641682942588
+      },
+      "contrast_std": {
+        "lower": 12.060675439602807,
+        "upper": 82.05921843858269
+      },
+      "glare_ratio": {
+        "lower": 0.0,
+        "upper": 0.28381281534830727
+      },
+      "occlusion_border_ratio": {
+        "lower": 0.0,
+        "upper": 0.23007827758789057
+      }
+    },
+    "val_original_coverage": 0.91875,
+    "val_original_reject_rate": 0.08125000000000004,
+    "val_heavy_n_input": 960,
+    "val_heavy_coverage": 0.18229166666666663,
+    "val_heavy_reject_rate": 0.8177083333333334
+  }
+}

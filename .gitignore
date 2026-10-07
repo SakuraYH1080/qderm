@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# 原始影像不入库（第三方数据，版权与体积考虑）：用 src/collect.py 重新获取
+data/images/
